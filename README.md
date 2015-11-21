@@ -2,8 +2,11 @@
 
 ## Intro
 This project simulates two market data price feeds (Reuters and Bloomberg). 
+
 Each market data feed is implemented as a rx.functions.Func1 (see MarketDataProviderFunc)
+
 Some prices can come from both Reuters and Bloomberg; some are exclusive to each.
+
 MarketDataSource aggregates prices from Reuters and Bloomberg.
 
 ## Delays
@@ -11,10 +14,12 @@ When we receive a price update from Reuters or Bloomberg, we simulate a one seco
 
 ## Pre-Reqs
 Java 8 
+
 Gradle (to build from source)
 
 ## How to run
 gradle run
+
 tail/open prices.txt file 
 
 ## Overview
